@@ -160,6 +160,8 @@ main {
     display: flex;
 
     gap: 2rem;
+
+
 }
 
 .card {
@@ -171,6 +173,15 @@ main {
     gap: 1rem;
     border-radius: 8px;
     min-width: 240px;
+}
+
+
+.card:nth-child(2) {
+    transform: translate(0px, 20px);
+}
+
+.card:nth-child(3) {
+    transform: translate(0px, 40px);
 }
 
 .profile {
@@ -236,6 +247,15 @@ main {
 
         align-items: center;
     }
+
+    .card:nth-child(2) {
+        transform: translate(0px, 0px);
+    }
+
+    .card:nth-child(3) {
+        transform: translate(0px, 0px);
+    }
+
 
     .descripton {
         width: 100%;
