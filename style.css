@@ -215,6 +215,8 @@ main {
 .profile-explain {
     color: var(--White);
     line-height: 1.3rem;
+    font-size: .9rem;
+    font-weight: 500;
 }
 
 
